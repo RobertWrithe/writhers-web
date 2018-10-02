@@ -1,0 +1,55 @@
+body {
+    background-color: #000000;
+    margin: 3.25%;
+    padding: 0;
+    text-align: center;
+    font-family: verdana;
+    color: #ff6699;
+    font-size: 1.6vw;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 66%;
+}
+
+.band-image {
+    max-width: 100%;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-button {
+    position: relative;
+    display: block;
+}
+
+.social {
+    position: absolute;
+    max-width: 30%;
+}
+
+.social-idle {
+    position: relative;
+    opacity: 1;
+    max-width: 30%;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
+
+.social-idle:hover {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
